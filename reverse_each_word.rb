@@ -1,9 +1,9 @@
 def reverse_each_word ( phrase )
   
-  newPhrase = phrase.split
+  reversedPhrase = phrase.split
   splitPhrase = []
 
-  newPhrase.collect do |words|
+  reversedPhrase.collect do |words|
     splitPhrase << words.reverse
   end
   
@@ -11,15 +11,15 @@ def reverse_each_word ( phrase )
   def reverse_each_word (phrase)
    
 
-  # newPhrase = phrase.split
+  # reversedPhrase = phrase.split
   # reversed = []
   # index = 0
   
-  # while index < newPhrase.size do
-  #   reversed << newPhrase[index].reverse
+  # while index < reversedPhrase.size do
+  #   reversed << reversedPhrase[index].reverse
   #   index += 1
   # end
-  # newPhrase = reversed.join(" ")
-  # return newPhrase
+  # reversedPhrase = reversed.join(" ")
+  # return reversedPhrase
   
 end
