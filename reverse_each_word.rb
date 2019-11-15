@@ -1,11 +1,11 @@
-def reverse_each_word (phrase)
+def reverse_each_word ( phrase )
   
   newPhrase = phrase.split
-  splitWords = []
+  splitPhrase = []
 
   newPhrase.collect do |words|
-    splitWords << words.reverse
+    splitPhrase << words.reverse
   end
   
-  splitWords.join(" ")
+  splitPhrase.join(" ")
 end
